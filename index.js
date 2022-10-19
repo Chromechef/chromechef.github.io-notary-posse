@@ -18,7 +18,7 @@ function sendEmail() {
         SecureToken: "c845f9d4-9033-45f6-940b-92960d6d974a",
         To: 'teri@notaryposse.com',
         From: "t.notaryposse@gmail.com",
-        Subject: "Email from Web to table Designs",
+        Subject: "Email from Notary Posse Website",
         Body: "Name : " + document.getElementById("name").value
             + "<br> Email: " + document.getElementById("email").value
             + "<br> Phone Number: " + document.getElementById("phone").value
