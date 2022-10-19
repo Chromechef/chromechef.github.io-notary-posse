@@ -16,7 +16,7 @@ let modalOpen = false
 function sendEmail() {
     Email.send({
         SecureToken: "04900a6f-4f14-42bd-8efc-df63a1555af5",
-        To: 'teri@notaryposse.com',
+        To: 'jimmy@webtotabledesigns.com',
         From: "chefjimmy09@gmail.com",
         Subject: "Email from Notary Posse Website",
         Body: "Name : " + document.getElementById("name").value
