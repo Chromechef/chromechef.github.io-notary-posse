@@ -464,6 +464,8 @@ footer {
     place-items: center;
     place-content: center;
     text-align: center;
+    position: fixed;
+    bottom: 0;
 }
 
 /* ***Modal*** */

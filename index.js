@@ -1,3 +1,5 @@
+
+
 const mediaQuery = '(max-width: 600px)';
 // const mediaQueryList = window.matchMedia(mediaQuery);
 
