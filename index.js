@@ -15,6 +15,10 @@ const mobileInfoButton = document.getElementById('mobile-button')
 
 let modalOpen = false
 
+document.querySelector('.button-start').onclick = function() {
+    window.location.href = '/contact.html';
+};
+
 function sendEmail() {
     Email.send({
         SecureToken: "04900a6f-4f14-42bd-8efc-df63a1555af5",
